@@ -22,14 +22,14 @@ This should have opened a tab that looks similar to this.
 # 
 ### Step 3
 
-Click __network__ at the top of the page and doubble click the grey box on the left side of the screen.
+Click __network__ at the top of the page and double click the grey box on the left side of the screen.
 
 ![image](https://github.com/user-attachments/assets/4e40c0e6-5a24-4c6e-a3bc-61ce85dc0062)
 
 # 
 ### Step 4
 
-Now you should be on a menu that loojs like this.
+Now you should be on a menu that looks like this.
 
 ![image](https://github.com/user-attachments/assets/5b6cb0a6-1cba-4478-b2ad-d7de7b8881cd)
 
