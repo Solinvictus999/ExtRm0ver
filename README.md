@@ -1,5 +1,5 @@
 # ExtRemover - School Chromebook Exploit
-Easy-use chrome extension remover.
+Easy-use chrome extension remover that can disable school-managed extensions.
 ## How to use
 ### Step 1
 Open a new tab and paste this link into the address bar.
