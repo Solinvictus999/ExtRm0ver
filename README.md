@@ -1,4 +1,4 @@
-# ExtRemover
+# ExtRemover - School Chromebook Exploit
 Easy-use chrome extension remover.
 ## How to use
 ### Step 1
