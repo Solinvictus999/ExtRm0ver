@@ -1,12 +1,10 @@
 # ExtRemover - School Chromebook Exploit
 Easy-use chrome extension remover that can disable school-managed extensions.
-#
+
 ## Prerequisites
 - Chromebook
 
 - Access to devtools
-
-#
 
 ## How to use
 ### Step 1
@@ -16,7 +14,6 @@ Open a new tab and paste this link into the address bar.
 
 You must open the link above first otherwise it will not work.
 
-# 
 ### Step 2
 
 Open this link in a __new tab__.
@@ -27,14 +24,12 @@ This should have opened a tab that looks similar to this.
 
 ![image](https://github.com/user-attachments/assets/cfe3c7c3-b39f-4d8d-8b88-43955db42a67)
 
-# 
 ### Step 3
 
 Click __network__ at the top of the page and double click the grey box on the left side of the screen.
 
 ![image](https://github.com/user-attachments/assets/4e40c0e6-5a24-4c6e-a3bc-61ce85dc0062)
 
-# 
 ### Step 4
 
 Now you should be on a menu that looks like this.
