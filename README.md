@@ -44,4 +44,4 @@ To override this, bookmarklet both sites in order named __1__ and __2__.
 
 ![image](https://github.com/user-attachments/assets/a76f047a-0681-4550-a030-2be3541d9e63)
 
-# 
+After this, when your chromebook restarts and the extensions are back, just click the bookmarks in their numbered order and continue on step 3.
