@@ -1,10 +1,17 @@
 # ExtRm0ver - School Chromebook Exploit
-Easy-use chrome extension remover that can disable school-managed extensions.
+Easy-use chrome extension remover that can disable school-managed extensions including
+- GoGuardian
+- Hapara
+- Securly
+- SEDUCA
+- iBoss
+
+And more.
 
 ## Prerequisites
 - Chromebook
 
-- Access to devtools
+- Access to devtools (__not devmode__)
 
 ## How to use
 ### Step 1
