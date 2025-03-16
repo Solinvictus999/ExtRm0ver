@@ -58,3 +58,6 @@ To override this, bookmarklet both sites in order named __1__ and __2__.
 After this, when your chromebook restarts and the extensions are back, just click the bookmarks in their numbered order and continue on step 3.
 
 #
+
+
+__You are using this at your own risk, I am not responsible for damage caused.__
