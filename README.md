@@ -1,4 +1,4 @@
-# ExtRemover - School Chromebook Exploit
+# ExtRm0ver - School Chromebook Exploit
 Easy-use chrome extension remover that can disable school-managed extensions.
 
 ## Prerequisites
