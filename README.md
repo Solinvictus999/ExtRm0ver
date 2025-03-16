@@ -1,5 +1,13 @@
 # ExtRemover - School Chromebook Exploit
 Easy-use chrome extension remover that can disable school-managed extensions.
+#
+## Prerequisites
+- Chromebook
+
+- Access to devtools
+
+#
+
 ## How to use
 ### Step 1
 Open a new tab and paste this link into the address bar.
@@ -37,6 +45,7 @@ Click __GForms Locked Mode (on all enrolled cbs)__
  
 Now you can freely enable and disable any extension installed on your computer.
 
+#
 
 Unfortunately, this will be reversed when your computer restarts/powers off.
 
@@ -45,3 +54,5 @@ To override this, bookmarklet both sites in order named __1__ and __2__.
 ![image](https://github.com/user-attachments/assets/a76f047a-0681-4550-a030-2be3541d9e63)
 
 After this, when your chromebook restarts and the extensions are back, just click the bookmarks in their numbered order and continue on step 3.
+
+#
