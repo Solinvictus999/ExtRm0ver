@@ -1,3 +1,7 @@
+
+# PATCHED ON v131
+
+
 # ExtRm0ver - School Chromebook Exploit
 Easy-use chrome extension remover that can disable school-managed extensions including
 - GoGuardian
