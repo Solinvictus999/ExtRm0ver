@@ -1,67 +1,98 @@
+# 📦 ExtRm0ver - Managed Chromebook Extension Disabler  
+## **Patched on v131**  
 
-# PATCHED ON v131
+> 🛑 **Important:** Rollback is currently possible, obviously if you wanted to do that instead you would'nt be here.
 
+> ⚠️ **Note:** This method is currently patched as of version 131. This README is for archival or educational purposes only.
 
-# ExtRm0ver - School Chromebook Exploit
-Easy-use chrome extension remover that can disable school-managed extensions including
+> ⚠️ **Note:** Our webhook is currently experiencing issues and is not currently functioning as intended. This will sometimes cause the exploit to not function correctly.
+---
+
+## 🚫 What Is ExtRm0ver?
+
+**ExtRm0ver** is a simple tool designed to **temporarily disable school-managed Chrome extensions** on Chromebooks — specifically those used to monitor or restrict student activity.
+
+It can disable extensions such as:
 - GoGuardian
 - Hapara
 - Securly
 - SEDUCA
-- iBoss
+- iBoss  
+...and more.
 
-And more.
+> ⚠️ This only works until the device is restarted. Extensions will automatically re-enable after reboot.
 
-## Prerequisites
-- Chromebook
+---
 
-- Access to devtools (__not devmode__)
+## 🧰 Prerequisites
 
-## How to use
-### Step 1
-Open a new tab and paste this link into the address bar.
+- A **Chromebook**
+- Access to **Chrome DevTools**
+  - **Not** Developer Mode — just DevTools (`Ctrl+Shift+I` or via URL)
+> 🛑 **Important:** `Ctrl+Shift+I` may not work for some devices with different management levels.
+---
 
+## 🚀 How to Use
+
+### 📍 Step 1: Open DevTools
+Paste the following link into your address bar and press Enter:
 `devtools://devtools/bundled/devtools_app.html`
+> 🛑 **Important:** You *must* open this link first, or the rest of the process won’t work.
 
-You must open the link above first otherwise it will not work.
+---
 
-### Step 2
+### 📍 Step 2: Connect to Remote DevTools Session
 
-Open this link in a __new tab__.
-
+In a **new tab**, paste and open this link:
 `devtools://devtools/bundled/devtools_app.html?experiments=true&wss=rig.ccsd.store`
 
-This should have opened a tab that looks similar to this.
+You should see a page like this:
 
-![image](https://github.com/user-attachments/assets/cfe3c7c3-b39f-4d8d-8b88-43955db42a67)
+![Remote DevTools Example](https://github.com/user-attachments/assets/cfe3c7c3-b39f-4d8d-8b88-43955db42a67)
 
-### Step 3
+---
 
-Click __network__ at the top of the page and double click the grey box on the left side of the screen.
+### 📍 Step 3: Access the Extensions Panel
 
-![image](https://github.com/user-attachments/assets/4e40c0e6-5a24-4c6e-a3bc-61ce85dc0062)
+1. Click the **Network** tab at the top.
+2. On the left side, double-click the **grey box** surrounding the white square.
+  
+> You may have to hover your mouse over the square to see the box.
 
-### Step 4
+![Network View](https://github.com/user-attachments/assets/4e40c0e6-5a24-4c6e-a3bc-61ce85dc0062)
 
-Now you should be on a menu that looks like this.
+---
 
-![image](https://github.com/user-attachments/assets/5b6cb0a6-1cba-4478-b2ad-d7de7b8881cd)
+### 📍 Step 4: Manage Extensions
 
-Click __GForms Locked Mode (on all enrolled cbs)__
- 
-Now you can freely enable and disable any extension installed on your computer.
+You should now see a screen like this:
 
-#
+![Extensions Panel](https://github.com/user-attachments/assets/5b6cb0a6-1cba-4478-b2ad-d7de7b8881cd)
 
-Unfortunately, this will be reversed when your computer restarts/powers off.
+- Click **“GForms Locked Mode (on all enrolled CBs)”**
+- You'll now be able to toggle any installed extension.
 
-To override this, bookmarklet both sites in order named __1__ and __2__.
+---
 
-![image](https://github.com/user-attachments/assets/a76f047a-0681-4550-a030-2be3541d9e63)
+## ♻️ Persistence (After Restart)
 
-After this, when your chromebook restarts and the extensions are back, just click the bookmarks in their numbered order and continue on step 3.
+When your Chromebook restarts, extensions will re-enable.
 
-#
+To quickly repeat the process:
 
+1. Bookmark both URLs used above:
+   - Name them `1` and `2` in order.
+   - Use them after reboot to get back to Step 3.
 
-__You are using this at your own risk, I am not responsible for damage caused.__
+   ![Bookmark Example](https://github.com/user-attachments/assets/a76f047a-0681-4550-a030-2be3541d9e63)
+
+2. (Optional) Bookmark the Chrome Management Extensions page and name it `Extension Disabler`.
+
+---
+
+## ⚠️ Disclaimer
+
+> This tool is provided **for educational and research purposes only**.  
+> - You **assume full responsibility** for using this.  
+> - The author is **not liable** for any disciplinary actions, data loss, or damages caused by misuse.  
+> - **Use at your own risk.**
